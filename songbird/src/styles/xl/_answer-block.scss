@@ -1,0 +1,73 @@
+#answer-block,
+#answer-block-content {
+    width: 33.75rem;
+    height: 19.06rem;
+    box-sizing: border-box;
+}
+
+#answer-block-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--bgrnd-1-clr);
+    box-sizing: border-box;
+
+    &.answer-block-content-initial {
+        padding: 1rem;
+        background-color: var(--bgrnd-1-clr);
+        border: 1px solid var(--brdr-1-clr);
+        border-radius: 0.25rem;
+    }
+}
+
+.answer-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33.75rem;
+    height: 3.176rem;
+    padding: 0.85rem 1.25rem;
+    background-color: var(--bgrnd-1-clr);
+    border: 1px solid var(--brdr-1-clr);
+    border-top: none;
+    box-sizing: border-box;
+
+    &.wrong-answer div:first-child {
+        background-color: var(--player-1-clr);
+    }
+
+    &.right-answer div:first-child {
+        background-color: var(--btn-main-1-clr);
+    }
+
+    &:hover {
+        background-color: var(--bgrnd-1-hover-clr);
+    }
+
+    &:first-child {
+        border: 1px solid var(--brdr-1-clr);
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+
+    &:last-child {
+        border-bottom-left-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+    }
+}
+
+.answer-item__icon-block {
+    width: 0.62rem;
+    height: 0.62rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    transition: .1s;
+    background-color: grey;
+    box-sizing: border-box;
+}
+
+.answer-item__name-block {
+    width: 15rem;
+    height: 1.2rem;
+    box-sizing: border-box;
+}

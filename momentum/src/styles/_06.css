@@ -1,0 +1,9 @@
+.play-list-lime {
+    list-style-image: url("../../assets/svg/play-button-lime.svg");
+    list-style-position: inside;
+}
+
+.play-list-grey {
+    list-style-image: url("../../assets/svg/play-button-grey.svg");
+    list-style-position: inside;
+}

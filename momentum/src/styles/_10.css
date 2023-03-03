@@ -1,0 +1,104 @@
+.settings {
+    position: absolute;
+    top: -255px;
+    left: 0px;
+    width: 300px;
+    height: 252px;
+    padding: 4px 0;
+    background-color: #F0F0F0;
+    border-radius: 4px;
+}
+
+.settings-visible {
+    visibility: hidden;
+}
+
+.block-language,
+.block-time,
+.block-date,
+.block-greeting,
+.block-quotes,
+.block-weather,
+.block-audioplayer,
+.block-show,
+.block-audioplayer {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    height: 27px;
+    margin-bottom: 4px;
+    padding: 0 4px;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+
+.lang-name,
+.time-name,
+.date-name,
+.greeting-name,
+.quotes-name,
+.weather-name,
+.audioplayer-name,
+.show-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 27px;
+    width: 100px;
+    color: black;
+}
+
+.show-name {
+    font-weight: bold;
+}
+
+.lang-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 27px;
+    width: 80px;
+    padding-bottom: 6px;
+}
+
+.btn-en,
+.btn-ru {
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.date-visibility,
+.greeting-visibility,
+.quotes-visibility,
+.weather-visibility,
+.audioplayer-visibility,
+.time-visibility {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 27px;
+    width: 80px;
+
+}
+
+.btn-time-visibility,
+.btn-date-visibility,
+.btn-greeting-visibility,
+.btn-quotes-visibility,
+.btn-weather-visibility,
+.btn-audioplayer-visibility {
+    width: 44px;
+    height: 23px;
+    margin-left: 4px;
+    border: none;
+    background-image: url('../../assets/svg/switch_on.svg');
+    background-repeat: no-repeat;
+}
+
+.off-button {
+    background-image: url('../../assets/svg/switch_off.svg');
+}

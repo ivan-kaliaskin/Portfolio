@@ -1,0 +1,2 @@
+1. change all sizes to rem
+2. make 404 page

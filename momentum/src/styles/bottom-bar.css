@@ -1,0 +1,17 @@
+.bottom-bar {
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 36px;
+}
+
+.gear {
+    width: 36px;
+    height: 36px;
+    border: none;
+    /* background-image: url('../../assets/svg/gear.svg'); */
+    background-image: url('../../public/gear.svg');
+    background-color: transparent;
+    background-size: 36px 36px;
+}

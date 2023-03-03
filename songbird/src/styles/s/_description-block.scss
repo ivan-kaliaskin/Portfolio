@@ -1,0 +1,83 @@
+#description-block {
+    width: 100%;
+    height: 30rem;
+    padding: 0.5rem;
+    background-color: var(--bgrnd-1-clr);
+    border: 1px solid var(--brdr-1-clr);
+    border-radius: .25rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+}
+
+#description-block-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: .25rem;
+    background-color: var(--bgrnd-1-clr);
+}
+
+#description-picture {
+    width: 12.5rem;
+    height: 9.6875rem;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    object-fit: cover;
+}
+
+#description-sound {
+    width: 100%;
+    height: 10rem;
+    box-sizing: border-box;
+    background-color: var(--bgrnd-1-clr);
+}
+
+#description-sound-normal-title {
+    width: 100%;
+    height: 2.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--brdr-1-clr);
+    padding: 0.5rem 0.25rem 0.25rem 0;
+    font-size: 1.40625rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    background-color: var(--bgrnd-1-clr);
+    box-sizing: border-box;
+}
+
+#description-sound-latin-title {
+    width: 100%;
+    height: 1.97rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--brdr-1-clr);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: var(--bgrnd-1-clr);
+    box-sizing: border-box;
+}
+
+#description-sound-player {
+    width: 17.1rem;
+    height: 4.85rem;
+    background-color: rgb(224, 75, 144);
+}
+
+#description-text {
+    width: 100%;
+    // height: 5.7rem;
+    margin: 0;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    background-color: var(--bgrnd-1-clr);
+
+    &.expanded-text {
+        background-color: teal;
+    }
+
+}
